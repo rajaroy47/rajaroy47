@@ -9,7 +9,7 @@
 
 ###
 
-<img align="right" height="150" src="https://i.imgflip.com/65efzo.gif" alt="Animated GIF" />
+<img align="right" height="150" src="https://media.tenor.com/images/612c67349c947241b589a900929118c1/tenor.gif" alt="Hacking GIF" />
 
 ###
 
@@ -46,6 +46,6 @@
 
 <br clear="both">
 
-<img src="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+<img src="https://raw.githubusercontent.com/rajaroy47/rajaroy47/output/github-contribution-grid-snake.svg" alt="Snake animation" />
 
 ###
