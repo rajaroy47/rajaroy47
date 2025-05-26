@@ -1,7 +1,21 @@
 <img src="banner.png" alt="GitHub Banner" width="100%" />
 
-# Hello World!, I'm Raja👋🏼:
-🛜 currently working on my own [webpage](https://www.tobiasmeyhoefer.de)<br>👨🏼‍🎓 studying media based computer science at Berliner Hochschule für Technik<br>👨🏼‍💻 working as a web developer since 2022 <br>🎬 just started out with my youtube channel <i>tobi tackles tech</i>
+# Hello World!, I'm Raja Roy 👋🏼
+
+💻 I'm a **Full Stack Web Developer** and **Linux Tool Designer**  
+👨🏼‍💻 Passionate about building responsive web apps and designing efficient CLI tools  
+🔧 Specialized in HTML, CSS, JavaScript, React, Node.js, PHP, MySQL, Bash & more  
+
+###
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=rajaroy47&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="Raja Roy's GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=rajaroy47&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="Raja Roy's Top Languages" />
+</div>
+
+###
+
+<img align="right" height="150" src="https://media.tenor.com/images/612c67349c947241b589a900929118c1/tenor.gif" alt="Hacking GIF" />
 
 # 💻 Tech Stack:
 
