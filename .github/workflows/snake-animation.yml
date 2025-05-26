@@ -1,0 +1,36 @@
+name: Generate snake animation
+
+on:
+  schedule: # execute every 12 hours
+    - cron: "0 */12 * * *"
+
+  workflow_dispatch: # Allows manual triggering from the GitHub Actions UI
+
+  push: # Triggers on push to the main branch
+    branches:
+      - main
+
+jobs:
+  generate:
+    permissions:
+      contents: write # Grants write permission for the GITHUB_TOKEN to push changes
+    runs-on: ubuntu-latest # Specifies the operating system for the job
+    timeout-minutes: 5 # Sets a timeout for the job to prevent infinite runs
+
+    steps:
+      - name: Checkout repository # Standard step to get your repository's code
+        uses: actions/checkout@v4
+
+      - name: Generate snake.svg # Uses the Platane/snk action to create the SVG
+        uses: Platane/snk/svg-only@v3 # Specifies the action and version
+        with:
+          github_user_name: rajaroy47 #  YOUR GITHUB USERNAME
+          outputs: dist/snake.svg?palette=github-dark # Defines the output path and filename, and sets the color palette
+
+      - name: Push snake.svg to the output branch # Uses crazy-max/ghaction-github-pages to push the generated SVG
+        uses: crazy-max/ghaction-github-pages@v3.1.0 # Specifies the action and version
+        with:
+          target_branch: output # The branch where the snake.svg will be pushed
+          build_dir: dist # The directory containing the generated file
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # The GitHub token used for authentication to push changes
